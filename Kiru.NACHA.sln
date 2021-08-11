@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiru.NACHA", "KiruETL.NACHA\Kiru.NACHA.csproj", "{8BDB0366-75FD-452F-9AF0-E3ED320575B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiru.NACHA.NETStandard", "KiruETL.NACHA.Core\Kiru.NACHA.NETStandard.csproj", "{0714B848-9C89-4844-96F2-08EBB6A51D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiruETL", "KiruETL\KiruETL.csproj", "{0A5062F4-B00A-4998-858D-A3C5D99E2074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiruETL.NETStandard", "KiruETL.NETStandard\KiruETL.NETStandard.csproj", "{1F91587C-0628-4AD6-A588-2163CE1A95A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BDB0366-75FD-452F-9AF0-E3ED320575B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDB0366-75FD-452F-9AF0-E3ED320575B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDB0366-75FD-452F-9AF0-E3ED320575B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDB0366-75FD-452F-9AF0-E3ED320575B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0714B848-9C89-4844-96F2-08EBB6A51D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0714B848-9C89-4844-96F2-08EBB6A51D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0714B848-9C89-4844-96F2-08EBB6A51D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0714B848-9C89-4844-96F2-08EBB6A51D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5062F4-B00A-4998-858D-A3C5D99E2074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5062F4-B00A-4998-858D-A3C5D99E2074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5062F4-B00A-4998-858D-A3C5D99E2074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5062F4-B00A-4998-858D-A3C5D99E2074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F91587C-0628-4AD6-A588-2163CE1A95A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F91587C-0628-4AD6-A588-2163CE1A95A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F91587C-0628-4AD6-A588-2163CE1A95A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F91587C-0628-4AD6-A588-2163CE1A95A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {855E5F10-3704-46C9-BF23-43CCBA22A62D}
+	EndGlobalSection
+EndGlobal
